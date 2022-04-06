@@ -180,9 +180,9 @@ footer a:hover { color: #000; }
 
 @media screen and (max-with: 1000px) {
 
-    h1 {font-size: 2.4em;}
+    h1 {font-size: 2.4em; }
     
-    /* header */
+    /* Header */
     header div.hero {left: 56%; } 
     header div.hero h1 {margin-bottom: 20px; } 
 
@@ -190,6 +190,7 @@ footer a:hover { color: #000; }
     section.atmosphere article {padding-left: 400px; background-size: 375px auto;}
 
 }
+
 
 @media screen and (max-with: 825px) {
     
@@ -207,6 +208,7 @@ footer a:hover { color: #000; }
     section.how-to blockquote p.credit { font-size: .85em; }
 }
 
+
 @media screen and (max-with: 760px) {
     h1 { font-size: 1.8em; }
     h2 { font-size: 1.4em; }
@@ -218,8 +220,8 @@ footer a:hover { color: #000; }
     header div.hero { top: 140px; left: 48%; }
 
     /* Section Main */
-    section.main { margin-top: 10px; margin-bottom: 10 px; }
-    section.main aside div.content { background-size: 55px 55px; padding-top: 60px;}
+    section.main { margin-top: 10px; margin-bottom: 10px; }
+    section.main aside div.content { background-size: 55px 55px; padding-top: 60px; }
 
     /* Section How-To */
     section.how-to aside div.content img { width: 85%; }
