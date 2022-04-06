@@ -2,21 +2,24 @@
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,700,300);
 
+/* Definir a margem que vai ser impressa */
 @page { margin: .5cm; }
 
 body {
     color: #000;
-    font-family: Georgia, 'Times New Roman', Times, serif; font-size: 12pt;
+    font-family: Georgia, "Times New Roman", Times, serif; font-size: 12pt;
     font-weight: normal; margin: 0; padding: 0;
 }
 
 h1, h2, h3, h4 { margin: 0; font-family: "Open Sans", sans-serif; }
 
+/* Definir propriedades especificas para cada header */
 h1 { font-size: 1.4em; }
 h2 { font-size: 1.3em; }
 h3 { font-size: 1.2em; }
 h4 { font-size: 1.1em; }
 
+/* Definir propriedades do paragrafo */
 p { margin: 0 0 1em 0; font-size: .9em; }
 
 a, a:visited { color: inherit; text-decoration: none; }
@@ -32,11 +35,11 @@ nav { display: none; }
 
 header { position: relative; }
 
-header::after { content: url(../images/banner_1300_print.jpg); width: 90% ; }
+header::after { content:url(../images/banner_1300_print.jpg); width: 90%; }
 
 header a.logo { display: block; width: 145px; height: 60px; position: absolute; top: 20px; left: 20px; }
 
-header a.logo::after {  content: url(../images/logo_print.svg); }
+header a.logo::after {  content:url(../images/logo_print.svg); }
 
 header a.logo::after { display: block; position: absolute; top: 20px; left: 175px; }
 
@@ -120,7 +123,7 @@ section.how-to blockquote p.credit::before {
     left: 0px; top: -1px;
 }
 
-footer { border-top: 1px solid #ccc; position: relative; min-height: 20px 0 0 170px; }
+footer { border-top: 1px solid #ccc; position: relative; min-height: 200px; padding: 20px 0 0 170px; }
 
 footer::after { content:url(../images/qr_codifydesign.png); position: absolute; top: 20px; left: 0px; }
 
@@ -131,7 +134,7 @@ footer a::after { display: block; }
 footer div.content { padding-left: 20px; }
 
 footer div.content::after {
-    content: "This page was printed from http;//codifydesign.com"; 
+    content: "This page was printed from http;//www.jcaconsultingpt.com"; 
     display: block; margin-top: 30px; font-style: italic; font-size: .9em;
 }
 
