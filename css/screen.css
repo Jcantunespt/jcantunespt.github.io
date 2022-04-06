@@ -19,8 +19,9 @@ p {margin: 0 0 1em 0;}
 a {color: #007eff;}
 a:visited {color: #65b1ff;}
 
-/* Cria uma especia de Bottom na mensagem Get professional advice */
+/* Cria uespecie de um Bottom na mensagem Get professional advice */
 a.btn {font-size: 1.2em ; text-decoration: none; color: #fff; border: 1px solid #fff; padding: 4px 15px; transition: background-color .5s;}
+
 /* a.btn:hover {background-color: rgba(0,0,0,.3) - 30% Opaco;}*/
 a.btn:hover {background-color: rgba(0, 0, 0,.5);}
 
@@ -53,12 +54,12 @@ section.main aside {width: 33% ; float: left; text-align: center;}
 
 section.main .content {margin: 15px; background: no-repeat center top; background-size: 75px 75px; padding-top: 85px;}
 
-section.main aside h3 a{color: #000; text-decoration: none;}
+section.main aside h3 a{ color: #000; text-decoration: none; } 
 section.main aside h3 a:hover { text-decoration: underline;}
 
-section.main aside .content.itmg {background-image: url(../images/icon_star.svg);}
-section.main aside .content.pmo {background-image: url(../images/icon_marker.svg);}
-section.main aside .content.itsec {background-image: url(../images/icon_gear.svg);}
+section.main aside .content.itmg {background-image:url(../images/icon_star.svg); }
+section.main aside .content.pmo {background-image:url(../images/icon_marker.svg); }
+section.main aside .content.itsec {background-image:url(../images/icon_gear.svg) }
 
 /* Section Atmosphere */
 
@@ -109,8 +110,7 @@ section.how-to blockquote::before {
 section.how-to blockquote p.quote::after { content: "\201d"; font-family: serif; }
 section.how-to blockquote p.credit::before { content: "\2014"; position: absolute; top: -1px; left: 0; }
 
-/* Criar Menu de navegação */
-
+/* NAVIGATION ---- Criar Menu de navegação */
 nav { 
     background-color: rgba(0,0,0,.65);
     position: absolute;
@@ -119,12 +119,13 @@ nav {
     width: 100%;
 }
 
-/* colocar o MENU na parte de cima  na Horizontal! */
+/* colocar o MENU na parte de cima ---> mas na posião de Horizontal! */
 nav::after { content: ""; display: block; clear: both;}
   
 nav ul { list-style: none ; margin: 0; padding: 0px; }
 
 nav ul li:hover { background-color: #2b0306}
+nav ul li:hover > ul { display: block; }
 
 nav ul li a { 
     display: inline-block;
@@ -135,7 +136,7 @@ nav ul li a {
     position: relative;
 }
 
-nav ul li a:visited { color:  #fff; }
+nav ul li a:visited { color: #fff; }
 nav ul li a:hover { background-color: #6d0911; }
 nav ul ul { position: absolute; top: 100% ; background-color: #2b0306; display: none; }
 nav ul ul li { position: relative; }
@@ -197,7 +198,7 @@ footer a:hover { color: #000; }
     h1 {font-size: 2.2em;}
 
     /* header */
-    header {height: 300px ; background-image: url(../images/banner_825.jpg); }
+    header {height: 300px ; background-image:url(../images/banner_825.jpg); }
     header div.hero { top: 120px; left: 48%; }
 
      /* Section Atmosphere */
@@ -240,7 +241,7 @@ footer a:hover { color: #000; }
     a.btn { font-size: .9em; }
 
     /* HAERDER - make also changes in the header of the site */
-    header { height: 160px; background-image: url(../images/banner_625.jpg); background-position: left top; }
+    header { height: 160px; background-image:url(../images/banner_625.jpg); background-position: left top; }
     header a.logo { 
         width: 100%; height: 66px;
         left: 0px; top: 0px;
@@ -332,7 +333,7 @@ footer a:hover { color: #000; }
 @media screen and (max-with: 425px) {
 
     /*  Header - adjusts for header and hero*/
-    header { height: 110px; background-image: url(../images/banner_425.jpg); }
+    header { height: 110px; background-image:url(../images/banner_425.jpg); }
     
     header a.logo {
         height: 36px; background: rgba(0, 0, 0, .65) url(../images/logo_small.svg) no-repeat center center;
