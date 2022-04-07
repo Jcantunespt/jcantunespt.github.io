@@ -9,18 +9,18 @@ body {font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 300; c
 #page {max-width: 1200px; margin: 0 auto ; position: relative;}
 
 /* Text notes 1em = multiple devices*/
-h1 {margin: 0 0 1em 0;font-size: 2.8em; font-weight: 700;}
-h2 {margin: 0 0 .5em 0;font-size: 1.6em; font-weight: 700; line-height: 1.1em;}
-h3 {margin: 0 0 .5em 0;font-size: 1.3em; font-weight: 700;}
-h4 {margin: 0 0 1.5em 0;font-size: 1em; font-weight: 700;}
+h1 {margin: 0 0 1em 0;font-size: 2.8em; font-weight: 700; }
+h2 {margin: 0 0 .5em 0;font-size: 1.6em; font-weight: 700; line-height: 1.1em; }
+h3 {margin: 0 0 .5em 0;font-size: 1.3em; font-weight: 700; }
+h4 {margin: 0 0 1.5em 0;font-size: 1em; font-weight: 700; }
 
 p {margin: 0 0 1em 0;}
 
 a {color: #007eff;}
 a:visited {color: #65b1ff;}
 
-/* Cria uespecie de um Bottom na mensagem Get professional advice */
-a.btn {font-size: 1.2em ; text-decoration: none; color: #fff; border: 1px solid #fff; padding: 4px 15px; transition: background-color .5s;}
+/* Cria uma especie de um Bottom na mensagem Get Professional Advice */
+a.btn {font-size: 1.2em ; text-decoration: none; color: #fff; border: 1px solid #fff; padding: 4px 15px; transition: background-color .5s; }
 
 /* a.btn:hover {background-color: rgba(0,0,0,.3) - 30% Opaco;}*/
 a.btn:hover {background-color: rgba(0, 0, 0,.5);}
@@ -50,7 +50,7 @@ section::after { content:""; display: block; clear: both; }
 /* Section ---- MAIN */ 
 section.main {margin-top: 20px; margin-bottom: 30px; padding: 0;}
 /* section.main {margin-top: 20px; margin-bottom: 30px; padding: 0; background-color: #ccc;} */
-section.main aside {width: 33% ; float: left; text-align: center;}
+section.main aside {width: 33% ; float: left; text-align: center; }
 
 section.main .content {margin: 15px; background: no-repeat center top; background-size: 75px 75px; padding-top: 85px;}
 
@@ -230,17 +230,16 @@ footer a:hover { color: #000; }
     /* Navigation */
     nav { padding-top: 80px; }
     nav > ul { padding-left: 10px; }
-
 }
 
-/* Navigation for small screens */
+/* Navigation for small screens - 625 pixels*/
 @media screen and (max-with: 625px) {
 
     h1 { font-size: 1em; }
     h3 { margin-bottom: 0px; }
     a.btn { font-size: .9em; }
 
-    /* HAERDER - make also changes in the header of the site */
+    /* Header - make also changes in the header of the site */
     header { height: 160px; background-image:url(../images/banner_625.jpg); background-position: left top; }
     header a.logo { 
         width: 100%; height: 66px;
@@ -253,7 +252,6 @@ footer a:hover { color: #000; }
     header div.hero h1 {margin-bottom: 10px; }
    
     /* Section - Main */
-
     section.main aside { width: 100% ; float: none; text-align: left;}
 
     section.main aside div.content { 
@@ -263,12 +261,11 @@ footer a:hover { color: #000; }
         background-position: 20px 5px;
     }
     /* Section - Atmosphere */
-
     section.atmosphere article { padding: 160px 20px 0px 0px; background-size: 300px auto; min-height: initial; }
 
     /* section How-TO */
 
-    section.how-to aside { width: 100% ; float: none; margin: o; position: relative; }
+    section.how-to aside { width: 100% ; float: none; margin: 0; position: relative; }
 
     section.how-to aside div.content { padding: 20px 20px 20px 150px; }
 
@@ -286,13 +283,12 @@ footer a:hover { color: #000; }
         width: 90%;
         padding: 1px 0px 20px 0px;
         position: relative;
-
     }
 
     section.how-to blockquote p.credit { margin-bottom: 0; }
 
     /* Navigation */
-    nav{ position: static; width: auto; padding: 20px 15px; background-color: #4b0a0c; }
+    nav { position: static; width: auto; padding: 20px 15px; background-color: #4b0a0c; }
 
     nav ul,
     nav ul ul,
